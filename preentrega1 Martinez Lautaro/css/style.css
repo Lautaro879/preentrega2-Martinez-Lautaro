@@ -1,0 +1,77 @@
+.body {
+  
+  margin: auto;
+  padding: auto;
+  background-image: url(../imagen/fondo\ 2.jpg); 
+  background-size: cover;
+  background-position: center; 
+  background: linear-gradient( 180deg, #021967, #b7b3f3 );
+}
+.navegacion a{
+  text-decoration: none;
+  color: #333;
+  width: 20%;
+  padding: 5px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 10%;
+  border-radius: 7px;
+  
+}
+#contentItemCarrusel{
+  border: 3px solid black;
+  height: 200px;
+  overflow: hidden;
+}
+
+.itemcarrusel{
+  border: 1px solid black;
+  height: 100%;
+ position: relative;
+}
+
+.tarjetacarrusel{
+  background-color: aliceblue;
+  height: 100%;
+}
+.flechascarrusel{
+  background-color: burlywood;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+}
+#tarjetacarrusel-1{
+  background-color: rgb(15, 103, 181);
+
+}
+#tarjetacarrusel-2{
+  background-color: rgb(3, 80, 148);
+
+}
+#tarjetacarrusel-3{
+  background-color: rgb(5, 62, 112);
+
+}
+
+
+
+
+footer {
+  background-color: #333; 
+  color: #fff;
+  padding: 120px;
+}
