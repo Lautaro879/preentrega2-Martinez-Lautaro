@@ -2,10 +2,12 @@
   
   margin: auto;
   padding: auto;
-  background-image: url(../imagen/fondo\ 2.jpg); 
   background-size: cover;
   background-position: center; 
   background: linear-gradient( 180deg, #021967, #b7b3f3 );
+}
+.navegacion{
+  margin-bottom: 15px;
 }
 .navegacion a{
   text-decoration: none;
@@ -17,6 +19,9 @@
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
+.navegaciona a:hover {
+  background-color: #333;
+}
 .logo{
   display: flex;
   justify-content: center;
@@ -27,49 +32,10 @@
   border-radius: 7px;
   
 }
-#contentItemCarrusel{
-  border: 3px solid black;
-  height: 200px;
-  overflow: hidden;
+.carousel{
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
-
-.itemcarrusel{
-  border: 1px solid black;
-  height: 100%;
- position: relative;
-}
-
-.tarjetacarrusel{
-  background-color: aliceblue;
-  height: 100%;
-}
-.flechascarrusel{
-  background-color: burlywood;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 20px;
-}
-#tarjetacarrusel-1{
-  background-color: rgb(15, 103, 181);
-
-}
-#tarjetacarrusel-2{
-  background-color: rgb(3, 80, 148);
-
-}
-#tarjetacarrusel-3{
-  background-color: rgb(5, 62, 112);
-
-}
-
-
-
-
 footer {
   background-color: #333; 
   color: #fff;

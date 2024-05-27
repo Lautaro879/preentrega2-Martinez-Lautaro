@@ -6,16 +6,16 @@
    background-position: center;
    background: linear-gradient( 180deg, #021967, #b7b3f3 );
 }
-a {
- text-decoration: none;
- color: #333;
- width: 20%;
- padding: 5px;
- margin: 5px;
- background-color: #f0f0f0;
- border-radius: 5px;
- transition: background-color 0.3s ease;
-}
+.navegacion a{
+   text-decoration: none;
+   color: #333;
+   width: 20%;
+   padding: 5px;
+   margin: 5px;
+   background-color: #f0f0f0;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+ }
 a:hover {
    background-color: #333;
 }
@@ -82,3 +82,30 @@ footer {
    padding: 10px;
 }
 
+@media only screen and (max-width: 600px){
+   .navegacion{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .navegacion a {
+      width: 30%;
+    }
+   .contacto{
+      width: 90%;
+   }
+   .contacto input{
+      width: 60%;
+   }
+   .text{
+      width: 70%;
+   }
+   .boton{
+      width: 40%;
+   }
+   footer {
+      padding: 20px;
+      text-align: center;
+    }
+}

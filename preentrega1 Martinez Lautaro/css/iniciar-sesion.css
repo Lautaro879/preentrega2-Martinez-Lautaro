@@ -6,17 +6,20 @@
     background-position: center; 
     background: linear-gradient( 180deg, #021967, #b7b3f3 );
 }
-a {
-  text-decoration: aut;
-  color: #000000;
-  width: 18%;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 5px;
-  background-color: #b7b3f3;
-  transition: background-color 0.3s ease;
+.navegacion a{
+    text-decoration: none;
+    color: #333;
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
-  
+a:hover {
+    background-color: #333;
+}
+
 .space{
     margin-top: 15px;
 }
@@ -62,9 +65,6 @@ a {
     margin-bottom: 24px;
 }
 
-a:hover {
-    background-color: #333;
-}
 footer {
     background-color: #333; 
     color: #fff;
